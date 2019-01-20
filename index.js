@@ -8,7 +8,6 @@ module.exports = {
         "curly": ["error", "all"],
         "eol-last": ["error", "always"],
         "func-call-spacing": ["error", "never"],
-        "func-names": "error",
         "global-require": "warn",
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
