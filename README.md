@@ -14,6 +14,18 @@ with some useful additions.
 }
 ```
 
+## Typescript
+- Install the Typescript ESLint parser: `npm i typescript-eslint-parse --save-dev`
+- Add the parser to your ESLint configuration:
+```json
+{
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "parser": "typescript-eslint-parser"
+    }
+}
+```
+
 # Detail
 Environments: `node`, `es6`, `browser`
 
