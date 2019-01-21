@@ -49,8 +49,6 @@ Unless noted, all rules are errors.
 | [no-lone-blocks](https://eslint.org/docs/rules/no-lone-blocks) | No curly brackets unless necessary.                                                                           |
 | [no-lonely-if](https://eslint.org/docs/rules/no-lonely-if) | Use `else if` instead of a lonely `if` wrapped inside an `else`.                                                                                       |
 | [no-loop-func](https://eslint.org/docs/rules/no-loop-func) | Functions cannot be declared inside loops, they should be declared outside.                                                                                      |
-| [no-magic-numbers](https://eslint.org/docs/rules/no-magic-numbers) | Numbers should be made a named variable to make its meaning explicit.                                                                                      |
-| [no-return-await](https://eslint.org/docs/rules/no-return-await) | Functions can't `return await functionName()`.                                                                                      |
 | [no-template-curly-in-string](https://eslint.org/docs/rules/no-template-curly-in-string) | Avoid confusion whether a string is templated or not.                                                                                      |
 | [no-throw-literal](https://eslint.org/docs/rules/no-throw-literal) | Throw errors explicitly, not just strings or values.                                                                                      |
 | [no-var](https://eslint.org/docs/rules/no-var) | Use ES6 block-scoped`const` and `let`, never `var`.                                                                                      |

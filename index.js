@@ -17,8 +17,6 @@ module.exports = {
         "no-lone-blocks": "error",
         "no-lonely-if": "error",
         "no-loop-func": "error",
-        "no-magic-numbers": ["error", { "ignoreArrayIndexes": true, "enforceConst": true, "detectObjects": true }],
-        "no-return-await": "error",
         "no-template-curly-in-string": "error",
         "no-throw-literal": "error",
         "no-var": "error",
