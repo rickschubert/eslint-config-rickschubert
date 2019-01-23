@@ -1,8 +1,6 @@
 ESLint Configuration "Rick Schubert"
 ===================================
 
-![](/readability_ux_mastery.png?raw=true "Readability")<sup>  1</sup>
-
 Preferring ES6, readability and low ambiguities. Extends the recommended ruleset
 with some useful additions.
 
@@ -33,7 +31,7 @@ with some useful additions.
 }
 ```
 
-- Currently, the TSLint parser has a few minor issues. For example, importing types from files trigger the rule `no-unused-vars` despite them being actually used as type annotations.
+- Currently, the TSLint parser has a few minor issues. For example, importing types triggers the rule `no-unused-vars` despite them being actually used as type annotations.
 
 # Rules in detail
 Environments: `node`, `es6`, `browser`
@@ -42,7 +40,7 @@ Unless noted, all rules are errors.
 
 | Rule                                                       | Description                                                                                                                       |
 |------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [arrow-parens](https://eslint.org/docs/rules/arrow-parens) | Always wraps function arguments in brackets.                                                                                      |
+| [arrow-parens](https://eslint.org/docs/rules/arrow-parens) | Always wrap function arguments in brackets.                                                                                      |
 | [brace-style](https://eslint.org/docs/rules/brace-style) | Curly brackets start after the keyword, not underneath.                                                                                      |
 | [comma-dangle](https://eslint.org/docs/rules/comma-dangle) | Dangling commas in multiline objects, functions, arrays.                                                                                      |
 | [complexity](https://eslint.org/docs/rules/complexity) | Maximum cyclomatic complexity of 3 to enforce highly maintaineable code (warning).                                                                                     |
@@ -70,7 +68,3 @@ Unless noted, all rules are errors.
 | [require-await](https://eslint.org/docs/rules/require-await) | `async` functions should perform an `await`, otherwise `async` keyword is unnecessary.                                                                                      |
 | [semi](https://eslint.org/docs/rules/semi) | Don't use semicolons.                                                                                      |
 | [yoda](https://eslint.org/docs/rules/yoda) | Don't use unintuitive conditions.                                                                                    |
-
-
--------------------
-<sup>1</sup>: Image credit Luke Chambers, uxmastery.com.
