@@ -1,6 +1,8 @@
 ESLint Configuration "Rick Schubert"
 ===================================
 
+![](/readability_ux_mastery.png?raw=true "Readability")<sup>  1</sup>
+
 Preferring ES6, readability and low ambiguities. Extends the recommended ruleset
 with some useful additions.
 
@@ -15,18 +17,25 @@ with some useful additions.
 ```
 
 ## Typescript
-- Install the Typescript ESLint parser: `npm i typescript-eslint-parse --save-dev`
-- Add the parser to your ESLint configuration:
+- Install the Typescript ESLint parser and plugin: `npm i @typescript-eslint/eslint-plugin @typescript-eslint/parser --save-dev`
+- Add parser and plugin to your ESLint configuration:
 ```json
 {
+    "plugins": ["@typescript-eslint"],
+    "parser": "@typescript-eslint/parser",
     "parserOptions": {
-      "ecmaVersion": 8,
-      "parser": "typescript-eslint-parser"
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "modules": true
+        }
     }
 }
 ```
 
-# Detail
+- Currently, the TSLint parser has a few minor issues. For example, importing types from files trigger the rule `no-unused-vars` despite them being actually used as type annotations.
+
+# Rules in detail
 Environments: `node`, `es6`, `browser`
 
 Unless noted, all rules are errors.
@@ -61,3 +70,7 @@ Unless noted, all rules are errors.
 | [require-await](https://eslint.org/docs/rules/require-await) | `async` functions should perform an `await`, otherwise `async` keyword is unnecessary.                                                                                      |
 | [semi](https://eslint.org/docs/rules/semi) | Don't use semicolons.                                                                                      |
 | [yoda](https://eslint.org/docs/rules/yoda) | Don't use unintuitive conditions.                                                                                    |
+
+
+-------------------
+<sup>1</sup>: Image credit Luke Chambers, uxmastery.com.
