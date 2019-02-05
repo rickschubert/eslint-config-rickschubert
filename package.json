@@ -10,5 +10,8 @@
     "eslint": ">= 3"
   },
   "author": "Rick Schubert",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "eslint-plugin-import": "^2.16.0"
+  }
 }

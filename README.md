@@ -51,6 +51,7 @@ Unless noted, all rules are errors.
 | [indent](https://eslint.org/docs/rules/indent) | Indentation of 4 spaces.                                                                                      |
 | [linebreak-style](https://eslint.org/docs/rules/linebreak-style) | UNIX linebreaks.                                                                                      |
 | [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop) | Disallow `await` in loops (should use `Promise.all()` instead).                                                                                      |
+| [no-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md) | Only allow named exports for increased consistency and clarity when importing modules. |
 | [no-floating-decimal](https://eslint.org/docs/rules/no-floating-decimal) | Numbers have to be clear, i.e. `0.4` instead of `.4`.                                                                                      |
 | [no-implicit-coercion](https://eslint.org/docs/rules/no-implicit-coercion) | Converting types from one to another have to be explicit.                                                                                      |
 | [no-lone-blocks](https://eslint.org/docs/rules/no-lone-blocks) | No curly brackets unless necessary.                                                                           |

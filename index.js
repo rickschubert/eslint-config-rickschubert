@@ -12,6 +12,7 @@ module.exports = {
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
         "no-await-in-loop": "error",
+        "no-default-export": "error",
         "no-floating-decimal": "error",
         "no-implicit-coercion": "error",
         "no-lone-blocks": "error",
