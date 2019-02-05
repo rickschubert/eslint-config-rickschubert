@@ -1,5 +1,6 @@
 module.exports = {
     extends: "eslint:recommended",
+    plugins: ["import"],
     rules: {
         "arrow-parens": ["error", "always"],
         "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
