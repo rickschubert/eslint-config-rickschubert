@@ -19,6 +19,7 @@ with some useful additions.
 - Add parser and plugin to your ESLint configuration:
 ```json
 {
+    "extends": ["rickschubert"],
     "plugins": ["@typescript-eslint"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
