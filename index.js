@@ -10,7 +10,6 @@ module.exports = {
         "eol-last": ["error", "always"],
         "func-call-spacing": ["error", "never"],
         "global-require": "warn",
-        "indent": ["error", 4],
         "import/no-default-export": "error",
         "linebreak-style": ["error", "unix"],
         "no-await-in-loop": "error",

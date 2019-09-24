@@ -49,7 +49,6 @@ Unless noted, all rules are errors.
 | [eol-last](https://eslint.org/docs/rules/eol-last) | Empty line at the end of the file.                                                                                      |
 | [func-call-spacing](https://eslint.org/docs/rules/func-call-spacing) | Brackets `()` to invoke a function have to stand right next to the function name.                                                                                      |
 | [global-require](https://eslint.org/docs/rules/global-require) | `require()` statements should be at the top of the file (warning).                                                                                      |
-| [indent](https://eslint.org/docs/rules/indent) | Indentation of 4 spaces.                                                                                      |
 | [linebreak-style](https://eslint.org/docs/rules/linebreak-style) | UNIX linebreaks.                                                                                      |
 | [no-await-in-loop](https://eslint.org/docs/rules/no-await-in-loop) | Disallow `await` in loops (should use `Promise.all()` instead).                                                                                      |
 | [no-default-export](https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-default-export.md) | Only allow named exports for increased consistency and clarity when importing modules. |
