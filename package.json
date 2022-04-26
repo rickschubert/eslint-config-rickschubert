@@ -12,6 +12,6 @@
   "author": "Rick Schubert",
   "license": "ISC",
   "dependencies": {
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.26.0"
   }
 }
